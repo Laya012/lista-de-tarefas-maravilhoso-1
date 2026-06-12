@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+body {
+    font-family: 'Gravitas One', cursive;
+    background-color: #FFF9C4;
+    background-image: repeating-linear-gradient(
+        #FFECB3 0px,
+        #FFECB3 2px,
+        transparent 2px,
+        transparent 40px
+    );
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+}
+
+input {
+    width: 70%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #FFD54F;
+    border-radius: 10px;
+    font-family: 'Gravitas One', cursive;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Gravitas One', cursive;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#btnAdicionar {
+    background-color: #FFD54F;
+    color: black;
+}
+
+#btnLimparTudo {
+    background-color: #64B5F6;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.btn-concluir {
+    background-color: #81C784;
+}
+
+.btn-remover {
+    background-color: #EF9A9A;
+}
+
+.btn-editar {
+    background-color: #FFB74D;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #E0E0E0;
+}
+
+p {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contador {
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFD54F;
+    background-color: black;
+    padding: 2px 8px;
+    border-radius: 20px;
+}
